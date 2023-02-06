@@ -28,12 +28,13 @@
 .nav{
     align-items: center;
     background-color:ghostwhite;
-    width: 600px;
+    width: 500px;
     height: 40px;
     position: absolute;
     left: 50%;
     top: 96%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
     
 }
 ul{
@@ -46,22 +47,36 @@ gap: 40px;
 list-style-type: none;
 
 }
+li{
+    text-align: center;
+}
 .n1{
 padding-left: 20px;
 }
 .n2{
-padding-left: 80px;
+padding-left: 50px;
 }
 .n3{
-padding-left: 100px;
+padding-left: 80px;
 color: red;
 }
 .n4{
-padding-left: 120px;
+padding-left: 100px;
 }
 a{
 text-decoration: none;
 }
 img{
     width:500px;
+}
+@media only screen and (max-width:620px){
+    .flexbox{
+        width: 90%;
+    }
+    .vin{
+        width: 100%;
+    }
+    img{
+    width: 100%;
+    }
 }

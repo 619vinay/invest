@@ -90,17 +90,18 @@ ul{
 .nav{
     align-items: center;
     background-color:ghostwhite;
-    width: 600px;
+    width: 500px;
     height: 40px;
     position: absolute;
     left: 50%;
     top: 96%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
     
 }
 p{
     display: inline;
-    padding: 50px;
+    padding: 38px;
     text-align: center;
     position: relative;
     transform: translate(-50%,-50%);
@@ -111,8 +112,26 @@ a{
 .np{
     color:red
 }
+
 a:hover{
     color: red;
+}
+@media only screen and (max-width:620px){
+    .flexbox{
+        width: 90%;
+    }
+    .vin{
+        width: 100%;
+     }
+     .a1,.a2,.a3{
+        width: 40%;
+     }
+     .img1{
+        width: 75%;
+     }
+     .img3{
+        width: 85%;
+     }
 }
 
 

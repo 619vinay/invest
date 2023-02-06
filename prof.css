@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
 .vin{
     align-items: center;
     background-color: rgb(255, 0, 0);
@@ -135,6 +139,7 @@ ul li{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 details{
     width: 200px;
@@ -147,4 +152,15 @@ summary{
 }
 a:hover{
     color: red;
+}
+@media only screen and (max-width:620px){
+    .flexbox{
+        width: 90%;
+    }
+    .vin{
+        width: 100%;
+    }
+    .ladel,.ladel2,.ladel3,.ladel4,.ladel5,.ladel6{
+        width: 40%;
+    }
 }
