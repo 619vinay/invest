@@ -1,0 +1,150 @@
+.vin{
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    
+}
+.flexbox{
+
+    width: 500px;
+    height: 573px;
+    background-color:rgb(232, 232, 250);
+    position: relative;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow-y: scroll;
+}
+.prof{
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%,-50%);
+}
+.mm{
+    padding-top: 75px;
+    color: white;
+    font-size: 25px;
+}
+.ladel{
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+}
+p{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+    padding:5px;
+}
+.rs{
+    font-size: 20px;
+}
+.ladel2{
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    float: right;
+    margin: 20px;
+}
+.ladel3{
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    float: left;
+    margin: 1px;
+    margin-left: 20px;
+}
+.ladel4{
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    float: right;
+    margin: 1px;
+    margin-right:20px ;
+}
+.ladel5{
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 20px;
+}
+.ladel6{
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: white;
+    float: right;
+    margin: 20px;
+    margin-right:20px ;
+}
+.nav{
+        align-items: center;
+        background-color:ghostwhite;
+        width: 600px;
+        height: 40px;
+        position: absolute;
+        left: 50%;
+        top: 96%;
+        transform: translate(-50%,-50%);
+        
+}
+ul{
+    display: inline-flex;
+    align-items: center;
+}
+ul li{
+    padding: 1px;
+    gap: 40px;
+   
+}
+.n1{
+    padding-left: 20px;
+}
+.n2{
+    padding-left: 80px;
+}
+.n3{
+    padding-left: 100px;
+    color: red;
+}
+.n4{
+    padding-left: 120px;
+}
+a{
+    text-decoration: none;
+}
+details{
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: red;
+}
+summary{
+    color:black;
+}
+a:hover{
+    color: red;
+}
